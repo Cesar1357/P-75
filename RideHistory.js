@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import { Avatar, ListItem, Icon } from "react-native-elements";
 import firebase from "firebase";
-import db from "../config";
+import db from "./config";
 
 export default class RideHistoryScreen extends Component {
   constructor(props) {
