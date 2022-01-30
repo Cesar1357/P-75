@@ -11,10 +11,10 @@ import {
 } from "react-native";
 
 import firebase from "firebase";
-import db from "../config";
+import db from "./config";
 
-const bgImage = require("../assets/background1.png");
-const appIcon = require("../assets/appIcon.png");
+const bgImage = require("./background1.png");
+const appIcon = require("./appIcon.png");
 
 export default class LoginScreen extends Component {
   constructor(props) {
